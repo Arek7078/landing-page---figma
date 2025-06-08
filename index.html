@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page + Figma</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400&f[]=cabinet-grotesk@400&f[]=chillax@500&f[]=space-grotesk@400&display=swap" rel="stylesheet">
+                
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cabinet Grotesk', sans-serif;
+        }
+        body {
+            
+            
+            background-color: black;
+        }
+        header{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            color: white;
+            position: relative;
+            top:20px;
+            z-index: 1;
+            
+            
+        }
+        h3 {
+            font-family: 'Chillax', sans-serif;
+            font-size: 24px;
+            width:95px;
+            
+        }
+        .nav-links li a {
+            font-family: 'Clash Grotesk', sans-serif;
+            font-size: 18px;
+            width:594px;
+            
+            
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            
+            
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            
+        }
+        .social-links {
+            width:128px;
+            
+        }
+        img {
+            width: 20px;
+            height: 20px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 100px;
+            width: 100%;
+            flex-wrap: wrap;
+            
+            
+        }
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            
+            z-index: -1;
+        }
+        h1{
+            font-family: 'Clash Grotesk', sans-serif;
+            font-size: 80px;
+            background: linear-gradient(to bottom right, #FF1CF7  , #00F0FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            max-width:669px;
+            
+            letter-spacing: 2px;
+              
+        }
+        h2{
+            font-family: 'Clash Grotesk', sans-serif;
+            font-size: 80px;
+            color:white;
+            max-width:417px;
+            
+            letter-spacing: 2px;
+        }
+        p{
+            font-family: 'Cabinet Grotesk', sans-serif;
+            font-size: 20px;
+            color: white;
+            max-width: 723px;
+            letter-spacing: 0.72px;
+            
+        }
+        .buttonContainer {
+            display: flex;
+            width: 370px;
+            justify-content: space-between;
+            
+            margin-top: 20px;
+        }
+        .btn_first,.btn_second{
+            width: 176px;
+            height: 70px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 20px;
+
+        }
+        .btn_first {
+            background: linear-gradient(to bottom , #497CFF, #001664);
+            border: none;
+            color: white;
+            
+            
+        }
+        .btn_second {
+            background: linear-gradient(to bottom , #D1D3E2, #75629D);
+            border: none;
+            color: white;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Serendale</h3>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Smart Contracts</a></li>
+                <li><a href="#about">Services</a></li>
+                <li><a href="#services">Solutions</a></li>
+                <li><a href="#contact">Roadmap</a></li>
+                <li><a href="#contact">Whitepaper</a></li>
+            </ul>
+            </nav>
+            <ul class="social-links">
+                <li><a href="#github"><img src="./icons/Vector.png" alt=""></a></li>
+                <li><a href="#discord"><img src="./icons/Vector (1).png" alt=""></a></li>
+                <li><a href="#reddit"><img src="./icons/Vector (2).png" alt=""></a></li>
+                <li><a href="#twitter"><img src="./icons/Vector (3).png" alt=""></a></li>
+            </ul>
+            </header>
+            <main>
+                <img src="./img/Serendale.ai Alternate.png" alt="background image" class="background-image">
+                <h1>A Fast BlockChain.</h1>
+                <h2>Scalable AI.</h2>
+                <p>Our technology performing fast blockchain (120K TPS) and it has guaranteed AI-based data security. Proof of Stake, its consensus algorithm enables unlimited speeds.</p>
+                <div class="buttonContainer">
+                    <button class="btn_first">Get Started</button>
+                    <button class="btn_second">Ecosystem</button>
+                </div>
+            </main>
+        
+    </header>
+    
+</body>
+</html>
