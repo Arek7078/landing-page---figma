@@ -5,43 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page + Figma</title>
     <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400&f[]=cabinet-grotesk@400&f[]=chillax@500&f[]=space-grotesk@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
                 
     
 </head>
-<body>
-    <header>
-        <h3>Serendale</h3>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Smart Contracts</a></li>
-                <li><a href="#about">Services</a></li>
-                <li><a href="#services">Solutions</a></li>
-                <li><a href="#contact">Roadmap</a></li>
-                <li><a href="#contact">Whitepaper</a></li>
+<body class="bg-black">
+    <header class="flex justify-evenly items-center text-white relative top-5 z-10">
+        <h3 class="font-['Chillax'] text-base sm:text-lg md:text-xl lg:text-2xl  ">Serendale</h3>
+
+        <nav class="hidden sm:block">
+
+            <ul class="list-none flex gap-3">
+                <li><a class="font-['Clash_Grotesk'] sm:text-base md:text-xl" href="#home">Smart Contracts</a></li>
+                <li><a class="font-['Clash_Grotesk'] sm:text-base md:text-xl" href="#about">Services</a></li>
+                <li><a class="font-['Clash_Grotesk'] sm:text-base md:text-xl" href="#services">Solutions</a></li>
+                <li><a class="font-['Clash_Grotesk'] sm:text-base md:text-xl" href="#contact">Roadmap</a></li>
+                <li><a class="font-['Clash_Grotesk'] sm:text-base md:text-xl" href="#contact">Whitepaper</a></li>
             </ul>
-            </nav>
-            <ul class="social-links">
-                <li><a href="#github"><img src="./icons/Vector.png" alt=""></a></li>
-                <li><a href="#discord"><img src="./icons/Vector (1).png" alt=""></a></li>
-                <li><a href="#reddit"><img src="./icons/Vector (2).png" alt=""></a></li>
-                <li><a href="#twitter"><img src="./icons/Vector (3).png" alt=""></a></li>
+        </nav>
+            <ul class="list-none gap-3 hidden sm:flex">
+                <li><a href="#github"><img class="w-4 h-4" src="./icons/Vector.png" alt=""></a></li>
+                <li><a href="#discord"><img class="w-4 h-4" src="./icons/Vector (1).png" alt=""></a></li>
+                <li><a href="#reddit"><img class="w-4 h-4" src="./icons/Vector (2).png" alt=""></a></li>
+                <li><a href="#twitter"><img class="w-4 h-4" src="./icons/Vector (3).png" alt=""></a></li>
             </ul>
-            </header>
-            <main>
-                <img src="./img/Serendale.ai Alternate.png" alt="background image" class="background-image">
-                
-                <h1>A Fast BlockChain.</h1>
-                <h2>Scalable AI.</h2>
-                <p>Our technology performing fast blockchain (120K TPS) and it has guaranteed AI-based data security. Proof of Stake, its consensus algorithm enables unlimited speeds.</p>
-                
-                <div class="buttonContainer">
-                    <button class="btn_first">Get Started</button>
-                    <button class="btn_second">Ecosystem</button>
-                </div>
-            </main>
+        <div class="sm:hidden absolute right-5">
+            <button class="w-9 h-9 rounded-lg bg-slate-200 text-black opacity-60 ">=</button>
+        </div>
         
     </header>
+        <main class="flex flex-col items-center justify-center mt-24 w-full text-center min-h-screen relative">
+                <img class="absolute inset-0 w-full h-full object-cover -z-10" src="./img/Serendale.ai Alternate.png" alt="background image">
+                
+                <h1 class="font-['Clash Grotesk'] text-5xl sm:text-6xl md:text-7xl bg-gradient-to-br from-[#ff1cf7] to-[#00f0ff] bg-clip-text text-transparent max-w-[669px] tracking-[2px]">A Fast BlockChain.</h1>
+                <h2 class="font-['Clash Grotesk'] text-5xl sm:text-6xl md:text-7xl text-white mt-24 text-transparent max-w-[417px] tracking-[2px]">Scalable AI.</h2>
+                <p class="font-['Cabinet Grotesk'] text-sm sm:text-base md:text-lg text-white mt-24 text-transparent max-w-[750px] tracking-[0.72px] p-10">Our technology performing fast blockchain (120K TPS) and it has guaranteed AI-based data security. Proof of Stake, its consensus algorithm enables unlimited speeds.</p>
+                
+                <div class="flex max-w-[370px] justify-between mt-20 gap-2">
+                    <button class="w-[120px] sm:w-[150px] md:w-[176px] h-[50px] sm:h-[60px] md:h-[70px] rounded-lg cursor-pointer font-['Space Grotesk'] text-xl bg-gradient-to-b from-[#497cff] to-[#001664] border-none text-white">Get Started</button>
+                    <button class="w-[120px] sm:w-[150px] md:w-[176px] h-[50px] sm:h-[60px] md:h-[70px] rounded-lg cursor-pointer font-['Space Grotesk'] text-xl bg-gradient-to-b from-[#d1d3e2] to-[#75629d] border-none text-white">Ecosystem</button>
+                </div>
+        </main>
+        
+    
     
 </body>
 </html>
