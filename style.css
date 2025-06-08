@@ -157,83 +157,7 @@ p {
    RESPONSIVE DESIGN - MEDIA QUERIES
    =================================== */
 
-/* Large Desktop - 1440px and up */
-@media (min-width: 1440px) {
-  h1 {
-    font-size: 100px;
-  }
 
-  h2 {
-    font-size: 100px;
-  }
-
-  p {
-    font-size: 24px;
-  }
-}
-
-/* Desktop - 1024px to 1439px */
-@media (max-width: 1439px) and (min-width: 1024px) {
-  h1 {
-    font-size: 70px;
-  }
-
-  h2 {
-    font-size: 70px;
-  }
-
-  main {
-    margin-top: 80px;
-  }
-}
-
-/* Tablet - 768px to 1023px */
-@media (max-width: 1023px) and (min-width: 768px) {
-  header {
-    flex-direction: column;
-    gap: 20px;
-    top: 10px;
-  }
-
-  .nav-links li a {
-    width: auto;
-    font-size: 16px;
-  }
-
-  ul {
-    gap: 15px;
-  }
-
-  main {
-    margin-top: 60px;
-  }
-
-  h1 {
-    font-size: 60px;
-    max-width: 90%;
-  }
-
-  h2 {
-    font-size: 60px;
-    max-width: 90%;
-  }
-
-  p {
-    font-size: 18px;
-    max-width: 90%;
-  }
-
-  .buttonContainer {
-    width: 320px;
-  }
-
-  .btn_first,
-  .btn_second {
-    width: 150px;
-    height: 60px;
-    font-size: 18px;
-  }
-}
 
 /* Mobile Large - 481px to 767px */
 @media (max-width: 767px) and (min-width: 481px) {
@@ -286,19 +210,13 @@ p {
   }
 
   .buttonContainer {
-    width: 100%;
-    max-width: 300px;
+    align-items: center;
     flex-direction: column;
     gap: 15px;
   }
-
-  .btn_first,
-  .btn_second {
-    width: 100%;
-    height: 50px;
-    font-size: 16px;
-  }
 }
+
+  
 
 /* Mobile Small - 320px to 480px */
 @media (max-width: 480px) {
@@ -364,11 +282,12 @@ p {
     flex-direction: column;
     gap: 12px;
     margin-top: 16px;
+    align-items: center;
   }
 
   .btn_first,
   .btn_second {
-    width: 100%;
+    max-width: 200px;
     height: 45px;
     font-size: 14px;
   }
