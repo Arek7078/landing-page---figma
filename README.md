@@ -1,79 +1,106 @@
 # Serendale AI - Landing Page
 
-## 📄 Opis projektu
+[![Figma Design](https://img.shields.io/badge/Figma-Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/BfTEURpgIZOl0ROscQ1B0J/Serendale.ai---AI-based-Blockchain-Hero-Exploration--Community-?node-id=0-1&p=f&t=9Bi2TiZr59WJV689-0)
 
-Ten projekt to **landing page** stworzony w ramach nauki front-end developmentu. Strona została zaprojektowana w **Figma** i następnie zakodowana w HTML i CSS, prezentując fikcyjną platformę blockchain **Serendale AI**.
+## 📄 Project Description
 
-## 🎨 Projekt Figma
+This project is a **landing page** created as part of learning front-end development. The page was designed in **Figma** and then coded in HTML and CSS, presenting a fictional blockchain platform **Serendale AI**.
 
-Landing page został stworzony na podstawie projektu wykonanego w Figma, co pozwoliło na:
+## 🎨 Figma Design
 
-- Precyzyjne odwzorowanie designu
-- Zachowanie spójności wizualnej
-- Naukę pracy z narzędziami projektowymi
+**[🔗 View Figma Design](https://www.figma.com/design/BfTEURpgIZOl0ROscQ1B0J/Serendale.ai---AI-based-Blockchain-Hero-Exploration--Community-?node-id=0-1&p=f&t=9Bi2TiZr59WJV689-0)**
 
-## 🚀 Technologie
+The landing page was created based on a design made in Figma, which allowed for:
 
-- **HTML5** - struktura strony
-- **CSS3** - stylowanie i layout
-- **Fontshare** - niestandardowe czcionki (Clash Grotesk, Cabinet Grotesk, Chillax, Space Grotesk)
+- Precise design reproduction
+- Maintaining visual consistency
+- Learning to work with design tools
+- Understanding the design-to-code workflow
 
-## ✨ Funkcjonalności
+## 🚀 Technologies
 
-- **Responsywny design** - dostosowanie do różnych urządzeń
-- **Gradient na tekście** - efektowne kolorowanie tytułu
-- **Stylowane przyciski** - z gradientami i hover effects
-- **Nawigacja** - funkcjonalna struktura menu
-- **Ikony społecznościowe** - linki do platform społecznościowych
+- **HTML5** - Page structure and semantic markup
+- **CSS3** - Styling, layout, and responsive design
+- **Fontshare** - Custom fonts (Clash Grotesk, Cabinet Grotesk, Chillax, Space Grotesk)
 
-## 🎯 Cel edukacyjny
+## ✨ Features
 
-Projekt został stworzony w celach edukacyjnych, aby:
+- **Responsive Design** - Optimized for all device sizes
+- **Gradient Text Effects** - Eye-catching title styling
+- **Interactive Buttons** - Gradient backgrounds with hover effects
+- **Navigation Menu** - Functional header navigation
+- **Social Media Icons** - Links to social platforms
+- **Modern Typography** - Multiple custom font families
+- **Mobile-First Approach** - Designed for mobile devices first
 
-- Nauczyć się konwertowania projektów z Figma do kodu
-- Praktykować nowoczesne techniki CSS
-- Zrozumieć proces tworzenia landing page'y
-- Doskonalić umiejętności front-end developmentu
+## 🎯 Educational Purpose
 
-## 📁 Struktura projektu
+This project was created for educational purposes to:
+
+- Learn how to convert Figma designs to code
+- Practice modern CSS techniques
+- Understand the landing page creation process
+- Improve front-end development skills
+- Master responsive web design principles
+
+## 📁 Project Structure
 
 ```
 landing-page/
-├── index.html          # Główny plik HTML
-├── style.css           # Arkusz stylów CSS
-├── icons/              # Ikony społecznościowe
+├── index.html          # Main HTML file
+├── style.css           # CSS stylesheet
+├── icons/              # Social media icons
 │   ├── Vector.png
 │   ├── Vector (1).png
 │   ├── Vector (2).png
 │   └── Vector (3).png
-├── img/                # Obrazy
+├── img/                # Images
 │   └── Serendale.ai Alternate.png
-└── README.md           # Ten plik
+└── README.md           # This file
 ```
 
 ## 🔗 Demo
 
-Aby uruchomić projekt lokalnie:
+To run the project locally:
 
-1. Sklonuj repozytorium
-2. Otwórz plik `index.html` w przeglądarce
-3. Lub uruchom lokalny serwer (np. Live Server w VS Code)
+1. Clone the repository
+2. Open `index.html` file in your browser
+3. Or run a local server (e.g., Live Server in VS Code)
 
-## 📱 Responsywność
+## 📱 Responsiveness
 
-Strona została zaprojektowana z myślą o responsywności i dostosowuje się do różnych rozmiarów ekranów.
+The page was designed with responsiveness in mind and adapts to different screen sizes:
 
-## 🎨 Kolorystyka
+- **Desktop** (1024px+) - Full layout with large typography
+- **Tablet** (768px - 1023px) - Adjusted spacing and font sizes
+- **Mobile Large** (481px - 767px) - Stacked layout with optimized content
+- **Mobile Small** (320px - 480px) - Compact design for small screens
 
-- **Tło**: Czarny (#000000)
-- **Tekst**: Biały (#FFFFFF)
-- **Gradient tytułu**: Od #FF1CF7 do #00F0FF
-- **Przyciski**: Niebieskie i fioletowe gradienty
+## 🎨 Color Scheme
 
-## 📄 Licencja
+- **Background**: Black (#000000)
+- **Text**: White (#FFFFFF)
+- **Title Gradient**: From #FF1CF7 to #00F0FF
+- **Buttons**: Blue and purple gradients
 
-Ten projekt jest stworzony wyłącznie w celach edukacyjnych.
+## 🛠️ Design Process
+
+1. **Figma Design** - Created the initial design concept
+2. **HTML Structure** - Built semantic HTML markup
+3. **CSS Styling** - Implemented responsive styles
+4. **Testing** - Verified cross-browser compatibility
+5. **Optimization** - Enhanced performance and accessibility
+
+## 📄 License
+
+This project is created for educational purposes only.
+
+## 🤝 Contributing
+
+This is a learning project, but feedback and suggestions are always welcome!
 
 ---
 
-💡 **Uwaga**: To jest projekt edukacyjny stworzony w ramach nauki front-end developmentu. Design pochodzi z Figma i został zaimplementowany w HTML/CSS.
+💡 **Note**: This is an educational project created for learning front-end development. The design originates from Figma and was implemented using HTML/CSS.
+
+**Figma Design Credits**: [Serendale.ai Design File](https://www.figma.com/design/BfTEURpgIZOl0ROscQ1B0J/Serendale.ai---AI-based-Blockchain-Hero-Exploration--Community-?node-id=0-1&p=f&t=9Bi2TiZr59WJV689-0)
