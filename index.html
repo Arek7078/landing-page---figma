@@ -13,13 +13,13 @@
   </head>
   <body class="bg-black">
     <header id="header"
-      class="flex justify-evenly items-center text-white relative top-5 z-10"
+      class="flex justify-evenly items-center text-white fixed top-0 z-10 w-full"
     >
-      <h3 class="font-['Chillax'] text-base sm:text-lg md:text-xl lg:text-2xl">
+      <h3 id="logo" class="font-['Chillax'] text-base sm:text-lg md:text-xl lg:text-2xl mt-10">
         Serendale
       </h3>
 
-      <nav id="navigation" class="hidden sm:block">
+      <nav id="navigation" class="hidden sm:block mt-10">
         <ul id="nav-links" class="list-none flex gap-3">
           <li>
             <a
@@ -58,7 +58,7 @@
           </li>
         </ul>
       </nav>
-      <ul id="socials" class="list-none gap-3 hidden sm:flex">
+      <ul id="socials" class="list-none gap-3 hidden sm:flex mt-10">
         <li>
           <a href="#github"
             ><img
@@ -107,17 +107,24 @@
       />
 
       <h1
-        class="font-['Clash Grotesk'] text-5xl sm:text-6xl md:text-7xl bg-gradient-to-br from-[#ff1cf7] to-[#00f0ff] bg-clip-text text-transparent max-w-[669px] tracking-[2px]"
+        class="font-['Clash Grotesk']
+         text-5xl sm:text-6xl md:text-7xl
+          bg-gradient-to-br from-[#ff1cf7] to-[#00f0ff] bg-clip-text text-transparent
+           max-w-[669px] tracking-[2px]"
       >
         A Fast BlockChain.
       </h1>
       <h2
-        class="font-['Clash Grotesk'] text-5xl sm:text-6xl md:text-7xl text-white mt-24 max-w-[417px] tracking-[2px]"
+        class="font-['Clash Grotesk']
+         text-5xl sm:text-6xl md:text-7xl
+          text-white mt-24 max-w-[417px] tracking-[2px]"
       >
         Scalable AI.
       </h2>
       <p
-        class="font-['Cabinet Grotesk'] text-sm sm:text-base md:text-lg text-white mt-24 max-w-[750px] tracking-[0.72px] p-10"
+        class="font-['Cabinet Grotesk']
+         text-sm sm:text-base md:text-lg
+          text-white mt-24 max-w-[750px] tracking-[0.72px] p-10"
       >
         Our technology performing fast blockchain (120K TPS) and it has
         guaranteed AI-based data security. Proof of Stake, its consensus
@@ -126,12 +133,18 @@
 
       <div class="flex max-w-[370px] justify-between mt-20 gap-2">
         <button
-          class="w-[120px] sm:w-[150px] md:w-[176px] h-[50px] sm:h-[60px] md:h-[70px] rounded-lg cursor-pointer font-['Space Grotesk'] text-xl bg-gradient-to-b from-[#497cff] to-[#001664] border-none text-white hover:scale-105 transition-transform duration-300"
+          class="w-[120px] sm:w-[150px] md:w-[176px]
+           h-[50px] sm:h-[60px] md:h-[70px]
+            rounded-lg cursor-pointer font-['Space Grotesk'] text-xl bg-gradient-to-b from-[#497cff] to-[#001664]
+             border-none text-white hover:scale-105 transition-transform duration-300"
         >
           Get Started
         </button>
         <button
-          class="w-[120px] sm:w-[150px] md:w-[176px] h-[50px] sm:h-[60px] md:h-[70px] rounded-lg cursor-pointer font-['Space Grotesk'] text-xl bg-gradient-to-b from-[#d1d3e2] to-[#75629d] border-none text-white hover:scale-105 transition-transform duration-300"
+          class="w-[120px] sm:w-[150px] md:w-[176px]
+           h-[50px] sm:h-[60px] md:h-[70px]
+            rounded-lg cursor-pointer font-['Space Grotesk'] text-xl bg-gradient-to-b from-[#d1d3e2] to-[#75629d]
+             border-none text-white hover:scale-105 transition-transform duration-300"
         >
           Ecosystem
         </button>
