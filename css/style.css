@@ -1,0 +1,24 @@
+/*Burger Menu Styles*/
+#logo.active {
+  color:white;
+}
+#header.active {
+  flex-direction: column;
+  gap: 20px;
+  min-height: 100vh;
+  background-color: black;
+  opacity: 0.95;
+  color: white;
+}
+#nav-links.active{
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  
+}
+#socials.active {
+  display: flex;
+}
+#navigation.active {
+  display: flex;
+}
