@@ -19,41 +19,45 @@
       <h3 id="logo" class="font-['Chillax'] text-base sm:text-lg md:text-xl lg:text-2xl mt-10">
         Serendale
       </h3>
-
+      <div id="burger_container" class="sm:hidden absolute top-8 right-5 opacity-95 invert ">
+        <button id="burger" class="w-9 h-9 rounded-lg bg-slate-200 text-black  flex justify-center items-center">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>  
       <nav id="navigation" class="hidden sm:block mt-10">
         <ul id="nav-links" class="list-none flex gap-3">
           <li>
             <a
               class="font-['Clash_Grotesk'] sm:text-base md:text-xl hover:underline"
-              href="#home"
+              href="#contracts"
               >Smart Contracts</a
             >
           </li>
           <li>
             <a
               class="font-['Clash_Grotesk'] sm:text-base md:text-xl hover:underline"
-              href="#about"
+              href="#services"
               >Services</a
             >
           </li>
           <li>
             <a
               class="font-['Clash_Grotesk'] sm:text-base md:text-xl hover:underline"
-              href="#services"
+              href="#solutions"
               >Solutions</a
             >
           </li>
           <li>
             <a
               class="font-['Clash_Grotesk'] sm:text-base md:text-xl hover:underline"
-              href="#contact"
+              href="#roadmap"
               >Roadmap</a
             >
           </li>
           <li>
             <a
               class="font-['Clash_Grotesk'] sm:text-base md:text-xl hover:underline"
-              href="#contact"
+              href="#whitepaper"
               >Whitepaper</a
             >
           </li>
@@ -65,7 +69,7 @@
             ><img
               class="w-4 h-4 hover:animate-pulse"
               src="./icons/Vector.png"
-              alt="social"
+              alt="GitHub social icon"
           /></a>
         </li>
         <li>
@@ -73,7 +77,7 @@
             ><img
               class="w-4 h-4 hover:animate-pulse"
               src="./icons/Vector (1).png"
-              alt="social"
+              alt="Discord social icon"
           /></a>
         </li>
         <li>
@@ -81,7 +85,7 @@
             ><img
               class="w-4 h-4 hover:animate-pulse"
               src="./icons/Vector (2).png"
-              alt="social"
+              alt="Reddit social icon"
           /></a>
         </li>
         <li>
@@ -89,14 +93,11 @@
             ><img
               class="w-4 h-4 hover:animate-pulse"
               src="./icons/Vector (3).png"
-              alt="social"
+              alt="Twitter social icon"
           /></a>
         </li>
       </ul>
-      <div class="sm:hidden absolute right-5 ">
-        <button id="burger" class="w-9 h-9 rounded-lg bg-slate-200 text-black opacity-60 flex justify-center items-center">
-          <span class="material-symbols-outlined">menu</span></button>
-      </div>
+      
     </header>
     <main
       class="flex flex-col items-center justify-center mt-24 w-full text-center min-h-screen relative"
